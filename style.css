@@ -1,3 +1,20 @@
 body {
     background-color: rgb(225, 193, 255);
 }
+
+.fotos{
+    background-color: rgb(225, 193, 255);
+}
+
+.fotos1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotosvo {
+
+}
+
+.fotos2 {
+
+}
