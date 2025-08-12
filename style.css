@@ -15,3 +15,15 @@ body {
 .fotos2 {
 
 }
+
+button {
+    background-color: aqua;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 105, 197);
+}
