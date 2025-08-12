@@ -1,5 +1,6 @@
 body {
     background-color: rgb(200, 142, 255);
+    font-family: monospace;
 }
 
 
@@ -28,10 +29,3 @@ button:hover {
     background-color:rgb(127, 79, 238);;
 }
 
-
-.roboto-mono-<uniquifier> {
-  font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
