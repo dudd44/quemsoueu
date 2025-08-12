@@ -14,7 +14,8 @@ body {
 }
 
 .fotos2 {
-
+    display: flex;
+    justify-content: space-around;
 }
 
 button {
