@@ -11,14 +11,6 @@ body {
     height: 200px;
 }
 
-.fotosvo {
-    display: flex;
-    justify-content: space-around;
-    width: 200px;
-    height: 210px;
-}
-
-
 button {
     background-color: rgb(255, 255, 255);
     color: black;
