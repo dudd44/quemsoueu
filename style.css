@@ -7,8 +7,8 @@ body {
 .fotos1 {
     display: flex;
     justify-content: space-around;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
 }
 
 .fotos2 {
