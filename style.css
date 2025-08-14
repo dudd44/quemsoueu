@@ -4,23 +4,22 @@ body {
 }
 
 
-img {
-    width: 10%;
-    height: 10%;
-}
-
 .fotos1 {
     display: flex;
     justify-content: space-around;
-    width: 10px;
-    height: 10px;
+}
+
+.fotos1 img{
+    width: 33.33%;
 }
 
 .fotos2 {
     display: flex;
     justify-content: space-around;
-    width: 100px;
-    height: 100px;
+}
+
+.fotos1 img{
+    width: 33.33%;
 }
 
 
