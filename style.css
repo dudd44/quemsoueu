@@ -5,21 +5,25 @@ body {
 
 
 .fotos1 {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around; /* Ou space-evenly */
+  align-items: center; /* Opcional: centraliza verticalmente */
 }
 
-.fotos1 img{
-    width: 33.33%;
+.fotos1 img {
+  width: 33.33%; /* Ou use flex: 1 para distribuir igualmente */
+  height: auto; /* Mantém a proporção da imagem */
 }
 
-.fotos2 {
-    display: flex;
-    justify-content: space-around;
+.fotos2{
+  display: flex;
+  justify-content: space-around; /* Ou space-evenly */
+  align-items: center; /* Opcional: centraliza verticalmente */
 }
 
-.fotos1 img{
-    width: 33.33%;
+.fotos2 img {
+  width: 33.33%; /* Ou use flex: 1 para distribuir igualmente */
+  height: auto; /* Mantém a proporção da imagem */
 }
 
 
