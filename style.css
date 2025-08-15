@@ -6,36 +6,53 @@ body {
 
 .fotos1 {
   display: flex;
-  justify-content: space-around; /* Ou space-evenly */
-  align-items: center; /* Opcional: centraliza verticalmente */
+  justify-content: space-around; 
+  flex-wrap: wrap;
 }
 
 .fotos1 img {
-  width: 33.33%; /* Ou use flex: 1 para distribuir igualmente */
-  height: auto; /* Mantém a proporção da imagem */
+  width: 20%; 
+  height: auto; 
+  margin-bottom: 20px;
 }
 
-.fotos2{
+.fotos2 {
   display: flex;
-  justify-content: space-around; /* Ou space-evenly */
-  align-items: center; /* Opcional: centraliza verticalmente */
+  justify-content: space-around; 
+  
 }
 
 .fotos2 img {
-  width: 33.33%; /* Ou use flex: 1 para distribuir igualmente */
-  height: auto; /* Mantém a proporção da imagem */
+  width: 20%; 
+  height: auto;
+  margin-bottom: 20px; 
 }
-
 
 button {
     background-color: rgb(255, 255, 255);
     color: black;
-    padding: 10px 20px;
+    padding: 20px 40px;
     border: none;
     cursor: pointer;
+    display: flex; 
+    justify-content: center;
 }
 
 button:hover {
     background-color:rgb(127, 79, 238);;
 }
+
+h3 {
+  font-size: 30px;
+  background-color: rgb(51, 0, 99);
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  background-color: rgb(51, 0, 99);
+  color: white;
+}
+
 
